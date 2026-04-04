@@ -1,18 +1,9 @@
 function LogInCard() {
-  return (
-    <div
-      style={{
-        width: "350px",
-      }}
-    >
-      <EmailInput />
-      <LogInButton />
-    </div>
-  );
+  return <LogInButton />;
 }
 
 export function LogInButton() {
-  return <button>Iniciar sesión</button>;
+  return <button className="bg-red-500 w-100">Iniciar sesión</button>;
 }
 
 export function EmailInput() {

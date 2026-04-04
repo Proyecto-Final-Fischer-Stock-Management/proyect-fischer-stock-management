@@ -2,7 +2,11 @@ import "./App.css";
 import LogInCard from "./components/log in components/LogInCard";
 
 function App() {
-  return <LogInCard></LogInCard>;
+  return (
+    <div className="text-center">
+      <LogInCard></LogInCard>
+    </div>
+  );
 }
 
 export default App;
