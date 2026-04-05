@@ -6,9 +6,9 @@ function App() {
       <div className="bg-white min-h-25 flex items-center justify-between">
         <div
           style={{ backgroundImage: "url('/LogoFischer.png')" }}
-          className="w-[135px] h-[71px]"
+          className="w-[135px] h-[71px] ml-2"
         ></div>
-        <div className="flex gap-3 pr-3">
+        <div className="flex gap-3 mr-3">
           <div
             style={{ backgroundImage: "url('/mdi_bell.png')" }}
             className="w-[24px] h-[24px] bg-cover bg-center"
