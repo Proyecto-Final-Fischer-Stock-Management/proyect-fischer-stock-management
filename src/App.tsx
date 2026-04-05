@@ -1,4 +1,6 @@
 import "./App.css";
+import MenuButton from "./components/MenuButton";
+import NotifButton from "./components/NotifButton";
 
 function App() {
   return (
@@ -9,15 +11,8 @@ function App() {
           className="w-[135px] h-[71px] ml-2"
         ></div>
         <div className="flex gap-3 mr-3">
-          <div
-            style={{ backgroundImage: "url('/mdi_bell.png')" }}
-            className="w-[24px] h-[24px] bg-cover bg-center"
-          ></div>
-
-          <div
-            style={{ backgroundImage: "url('/mingcute_menu-fill.png')" }}
-            className="w-[25px] h-[25px] bg-cover bg-center"
-          ></div>
+          <NotifButton></NotifButton>
+          <MenuButton></MenuButton>
         </div>
       </div>
     </div>
