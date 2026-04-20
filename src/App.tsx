@@ -9,7 +9,7 @@ function App() {
           <img src="/LogoFischer.png" />
         </div>
         <div className="flex gap-3 mr-3">
-          <ImageButton image={"/mdi_bell.png"} openFunction={OpenNotifPage} />
+          <ImageButton image={"/mdi_bell.png"} openFunction={OpenNotifPage}/>
           <ImageButton
             image={"/mingcute_menu-fill.png"}
             openFunction={OpenMenu}
