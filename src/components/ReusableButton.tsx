@@ -5,7 +5,7 @@ type Props = {
   openFunction: () => void;
 };
 
-function ImageButton(props: Props) {
+function ReusableButton(props: Props) {
   const { image, styles, text, openFunction } = props;
   
   return (
@@ -16,4 +16,4 @@ function ImageButton(props: Props) {
   );
 }
 
-export default ImageButton;
+export default ReusableButton;

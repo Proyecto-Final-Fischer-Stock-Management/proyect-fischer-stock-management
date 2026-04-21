@@ -1,3 +1,15 @@
+To initialize the proyect in the terminal:
+npm i (for node modules)
+npm install tailwindcss @tailwindcss/vite (for tailwind)
+
+
+
+
+
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

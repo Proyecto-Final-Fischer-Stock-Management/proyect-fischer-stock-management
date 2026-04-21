@@ -1,5 +1,5 @@
 import "./App.css";
-import ImageButton from "./components/ImageButton";
+import ReusableButton from "./components/ReusableButton";
 
 function App() {
   return (
@@ -9,8 +9,8 @@ function App() {
           <img src="/LogoFischer.png" />
         </div>
         <div className="flex gap-3 mr-3">
-          <ImageButton image={"/mdi_bell.png"} openFunction={OpenNotifPage}/>
-          <ImageButton
+          <ReusableButton image={"/mdi_bell.png"} openFunction={OpenNotifPage}/>
+          <ReusableButton
             image={"/mingcute_menu-fill.png"}
             openFunction={OpenMenu}
           />
@@ -25,7 +25,7 @@ function App() {
           <p className="ml-2">Mapa de sucursales</p>
         </div>
         <img src="/GPSimage.png" className="absolute m-3" />
-        <ImageButton
+        <ReusableButton
           image={"/AgrandarPantalla.png"}
           styles="absolute mt-3 ml-79"
           openFunction={OpenMap}
